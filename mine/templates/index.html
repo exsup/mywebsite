@@ -1,0 +1,169 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+   
+
+    <head>
+        <script src="{% static 'mine/js/scripts.js' %}"></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>my porfolio/resume</title>
+        <link rel="static icon" type="image/x-icon" href="/static/mine/assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'mine/css/styles.css' %}" rel="stylesheet" />
+        <link href="{% static 'mine/css/dark.css' %}" rel="stylesheet" />
+    </head>
+    <script>
+        function toggleTheme() {
+          document.body.classList.toggle("dark-theme");
+        }
+      </script>
+      <img src="/static/mine/assets/img/icon.png" alt="Dark Theme" onclick="toggleTheme()" style="position: fixed; top: 10px; right: 10px; width: 24px; height: 24px; cursor: pointer;">
+
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Solomon Thiga</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/mine/assets/img/solo.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Solomon
+                        <span class="text-primary">Thiga</span>
+                    </h1>
+                    <div class="subheading mb-5" style="font-size: small;">
+                        <i class="fas fa-map-marker-alt"></i> Nyeri,Kenya Kimathi Way &middot;
+                        <i class="fas fa-building"></i> Prestige Plaza, Room 207 &middot;
+                        <i class="fas fa-phone"></i> +(254)728 890 151 &middot;
+                        <i class="fas fa-envelope"></i> <a href="mailto:example@example.com" style="text-transform: lowercase;">excellentsuperior100@gmail.com</a>
+                    </div>
+                    
+                    
+                    <p class="lead mb-5">I am a passionate web and software developer, dedicated to crafting exceptional digital experiences. With expertise in Python, Django, CSS, and JavaScript, I create dynamic and user-friendly applications.</p>
+                    
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/solomon-thiga-3b482a145" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/soloh_kiige?igshid=MzNINGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="https://www.twitter.com/soloh_kiige?t=1exJHTGLk9rtaZQiPCoyww&s=08"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/profile.php?id=100091736726108"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://wa.me/+254728890151"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Developer</h3>
+                            <div class="subheading mb-3">(Self-taught)</div>
+                            <p>Utilized Python, Django, CSS, and JavaScript to develop personal website portfolio showcasing my web development skills.
+                                Implemented responsive design and user-friendly interfaces using CSS and JavaScript.
+                                Explored backend development with Django framework, handling database integration and server-side functionality.
+                                Developed graphical user interfaces (GUIs) using Tkinter for desktop applications.
+                                </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">More to Web developing</h3>
+                            <div class="subheading mb-3">GeoFlix Technologies</div>
+                            <p>As a web developer, I possess additional skills and expertise that extend beyond coding. I am well-versed in both Linux and Windows operating systems, allowing me to navigate and utilize different environments effectively. In addition to my web development capabilities, I have a keen interest in computer and laptop repair, maintenance, and troubleshooting. This hands-on experience has equipped me with a deep understanding of hardware components and software configurations, enabling me to address technical issues efficiently. I approach my work with enthusiasm and curiosity, constantly staying up to date with the latest advancements in technology. As a tech enthusiast, I am passionate about leveraging my skills to create innovative solutions and deliver exceptional results in the ever-evolving field of web development.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Present - January 2020</span></div>
+                    
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>In addition to my expertise as a web developer, I possess diverse interests and activities that contribute to my professional growth and personal fulfillment:</p>
+                    <p class="mb-0"> 1. Gaming Enthusiast: I have a passion for computer games, which allows me to stay up-to-date with the latest trends and advancements in the gaming industry.</p>
+                    <p class="mb-0"> 2. Commitment to Service: I am deeply committed to serving others and making a positive impact in my community. </p>
+                    <p class="mb-0"> 3. Continuous Learning: As part of my personal and professional development, I am currently engaged in learning and expanding my knowledge in the field of forex trading. By immersing myself in this financial domain, I aim to acquire valuable insights into global markets, risk management, and investment strategies.</p>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'mine/js/scripts.js' %}"></script>
+
+    </body>
+</html>
+<footer>
+    <p>&copy; 2023 All rights reserved. – Designed &amp; Coded by Solomon Thiga</p>
+</footer>
