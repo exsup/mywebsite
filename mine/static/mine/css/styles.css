@@ -10,6 +10,16 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/* Example of a media query for targeting screens with a maximum width of 768px (tablets) */
+@media (max-width: 768px) {
+    /* CSS rules specific to tablets */
+}
+
+/* Example of a media query for targeting screens with a maximum width of 576px (mobile devices) */
+@media (max-width: 576px) {
+    /* CSS rules specific to mobile devices */
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
